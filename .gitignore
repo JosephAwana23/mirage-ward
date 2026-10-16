@@ -1,0 +1,7 @@
+.env
+__pycache__/
+generated_vaccines/
+MirageWard_Incident_Report.pdf
+MirageWard_Forensic_Evidence.zip
+*.jsonl
+*.log

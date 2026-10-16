@@ -1,0 +1,130 @@
+[
+  {
+    "incident_id": "MW-8CD15F13",
+    "generated_at": "2026-10-16T14:49:20.233164+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "cat aws_prod_keys.env",
+    "yara_file": "Mirage_AutoVaccine_8cd15f13.yar",
+    "yara_rule_sha256": "95fb7f3597ebaa951b252ad8a0a590401c658097f6fa16d613bf29c7e033d42e",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_8cd15f13",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_8cd15f13\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "0905270908e0d216e205de8a036ed548af395af1acd31df74d503258ecef6822"
+  },
+  {
+    "incident_id": "MW-5834FB31",
+    "generated_at": "2026-10-16T14:49:20.464222+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "cat network_passwords.txt",
+    "yara_file": "Mirage_AutoVaccine_5834fb31.yar",
+    "yara_rule_sha256": "d43686533f089cc9d44785fea5caf50d8481358ef490fa98663df25c0cd0a966",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_5834fb31",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_5834fb31\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "d9d38af57216cf8989e676182b903b8069292d91d9587d360496663b851a5745"
+  },
+  {
+    "incident_id": "MW-8CD15F13",
+    "generated_at": "2026-10-16T14:53:48.460975+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "cat aws_prod_keys.env",
+    "yara_file": "Mirage_AutoVaccine_8cd15f13.yar",
+    "yara_rule_sha256": "453f47aadf7928fcd4fd346f6f91f765d034cbe1737b66ba8a94efd21972e2b5",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_8cd15f13",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_8cd15f13\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "42aef45c04d371c14308e2d2ffd83f47039eef2ec059ac316f4d181d2e217cc3"
+  },
+  {
+    "incident_id": "MW-5834FB31",
+    "generated_at": "2026-10-16T14:53:54.772975+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "cat network_passwords.txt",
+    "yara_file": "Mirage_AutoVaccine_5834fb31.yar",
+    "yara_rule_sha256": "358203c45638b3b98568a3a04fc834eff6c1b279012739075eab4e7eed758f1d",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_5834fb31",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_5834fb31\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "77ac34aebe8f6efc13f4b1bf7ecc9da125b22c564c2650135806ae22feff803c"
+  },
+  {
+    "incident_id": "MW-79D8CBE2",
+    "generated_at": "2026-10-16T15:41:16.544431+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "[VISUAL-SPOOF] python.exe rendered 'Microsoft Windows Security / login.microsoftonline.com OAuth dialog'",
+    "yara_file": "Mirage_AutoVaccine_79d8cbe2.yar",
+    "yara_rule_sha256": "0c3653f64630c1e254a6b76c275dba3eca66e64767ec3e3fd7283a1190cff447",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_79d8cbe2",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_79d8cbe2\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "14923d0f800fc3f70d2e29ae80c8fa0422db63fff4a9cf2a41b9d6aba1566580"
+  },
+  {
+    "incident_id": "MW-3AA1CB33",
+    "generated_at": "2026-10-16T15:57:58.695932+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "[VISUAL-SPOOF] python.exe rendered 'Windows Security / Microsoft Online OAuth Login (https://login.microsoftonline.com)'",
+    "yara_file": "Mirage_AutoVaccine_3aa1cb33.yar",
+    "yara_rule_sha256": "38982acab3cbf2e2ffd61287748aaecd15442ce20791211a47e29bdc133c5dd5",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_3aa1cb33",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_3aa1cb33\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "5915bab0278c5d9b7d20b493f6ca389d1e2b6ac5c27b65f26986efbe468dae74"
+  },
+  {
+    "incident_id": "MW-3AA1CB33",
+    "generated_at": "2026-10-16T15:58:00.404640+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "[VISUAL-SPOOF] python.exe rendered 'Windows Security / Microsoft Online OAuth Login (https://login.microsoftonline.com)'",
+    "yara_file": "Mirage_AutoVaccine_3aa1cb33.yar",
+    "yara_rule_sha256": "54da8f8ceed7a90cd3bef49ee19262a2bdf5fa981c241c4e4c3597d18acd8359",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_3aa1cb33",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_3aa1cb33\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "7aae5bb8196acd7e2502f22115fd4339fbc7b9cc442737899adaae768be2f3f2"
+  },
+  {
+    "incident_id": "MW-401ADDEC",
+    "generated_at": "2026-10-16T16:11:02.319047+00:00",
+    "trigger_reason": "CANARY HONEY-TOKEN TRIPWIRE",
+    "attacker_command": "[VISUAL-SPOOF] python.exe rendered 'Microsoft Online OAuth Login / Windows Security dialog (https://login.microsoftonline.com)'",
+    "yara_file": "Mirage_AutoVaccine_401addec.yar",
+    "yara_rule_sha256": "7045e3972e8b03c78bc8841ec6f07f117f1520415e7daf37bc4eb35428637c1f",
+    "firewall_mitigation": {
+      "rule_name": "MirageWard_Block_401addec",
+      "target_ip": "127.0.0.1",
+      "command": "netsh advfirewall firewall add rule name=\"MirageWard_Block_401addec\" dir=in action=block remoteip=127.0.0.1",
+      "enforcement_status": "DRY_RUN_LOOPBACK_PROTECTED",
+      "note": "Target is localhost (127.0.0.1). Rule staged for SIEM broadcast without blocking local loopback."
+    },
+    "manifest_signature_sha256": "05ba9a8bd5be1f79c550bb64c199cacd862a21a07d75ca6932d522669510605e"
+  }
+]
