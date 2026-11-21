@@ -296,7 +296,7 @@ class MirageDashboard(tk.Tk):
         def call_gemini():
             try:
                 resp = self.ai_client.models.generate_content(
-                    model="gemini-3.8-flash",
+                    model="gemini-4-nano",
                     contents=f"Summarize this cybersecurity intrusion event in 1 sharp, professional tactical sentence for a SOC operator: {latest_event}"
                 )
                 if resp and resp.text:
